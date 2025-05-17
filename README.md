@@ -18,7 +18,8 @@ Telecom companies lose revenue when customers leave (churn). By understanding pa
 ├── telco_customer_churn.csv
 ├── model/
 │ └── churn_model.pkl
-
+├── plots/
+│ └── churn_by_contract_type.png 
 
 ## 🚀 Steps Performed
 1. Loaded and cleaned the dataset
@@ -29,7 +30,11 @@ Telecom companies lose revenue when customers leave (churn). By understanding pa
 6. Saved the final model for reuse
 
 ## 📈 Results
-The model identifies churn-prone customers with reasonable precision. Visual EDA shows higher churn rates in short-term contract plans and customers with high monthly charges.
+The model identifies churn-prone customers with reasonable precision.  
+Visual analysis shows higher churn in customers with month-to-month contracts.
+
+### 📊 Churn by Contract Type
+![Churn by Contract Type](plots/churn_by_contract_type.png)
 
 ## 🛠️ How to Run
 1. Clone this repo and open the Jupyter Notebook
