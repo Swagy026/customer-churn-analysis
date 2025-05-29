@@ -44,7 +44,7 @@ This project demonstrates how I can use **data + Python to solve business proble
 
 ## 📈 Visual: Churn by Contract Type
 
-![Churn by Contract Type](plots/churn_by_contract_type.png)
+![Churn by Contract Type](churn_by_contract_type.png)
 
 **Insight**: Month-to-month customers have the **highest churn rate**, indicating flexibility may come at a business cost.
 
